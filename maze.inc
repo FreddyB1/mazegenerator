@@ -46,9 +46,11 @@ native CreateMazeBitmap(filename[], m_height, m_width, walls_color = 0x000000FF,
 	#include <streamer>
 #endif
 
-
+/*
+In case more memory is needed.
 #undef MALLOC_MEMORY
-#define MALLOC_MEMORY							4 * (MAX_MAZE_XSIZE * MAX_MAZE_YSIZE)				
+#define MALLOC_MEMORY							
+*/
 #define MAX_MAZE_XSIZE							(120)
 #define MAX_MAZE_YSIZE							(120)
 #define MAX_OBJECTS_PER_MAZE					(MAX_MAZE_XSIZE * MAX_MAZE_YSIZE)
