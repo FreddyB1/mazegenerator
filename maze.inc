@@ -19,7 +19,7 @@ Credits:
 
 native CreateInGameMaze(Float:origin_x, Float:origin_y, Float:origin_z, m_height, m_width, walls_color = 0x000000FF, spaces_color = 0xFFFFFFFF, start_color = 0xFF0000FF, bool:use_backtrack = true, bool:use_prim = false, bool: no_dead_end = false);
 native CreateMazeBitmap(filename[], m_height, m_width, walls_color = 0x000000FF, spaces_color = 0xFFFFFFFF, start_color = 0xFF0000FF, bool:use_backtrack = true, bool:use_prim = false, bool: no_dead_end = false);
-
+native CreateColorfulMaze(Float:origin_x, Float:origin_y, Float:origin_z, m_height, m_width, spaces_color = 0xFFFFFFFF, start_color = 0xFFFFFFFF, bool:use_backtrack = true, bool:use_prim = false, bool: no_dead_end = false);
 
 */
 
