@@ -6,7 +6,7 @@ The code was originally written in c++.
 
 //Purpy Pupple's amazing maze generator. 
 //Released under the CC-BY-SA 3.0 License and the GFDL
-
+//Available at: https://en.wikipedia.org/wiki/File:MAZE_30x20_DFS.ogv
 I adapted it to PAWN and added some features.
 
 Credits:
