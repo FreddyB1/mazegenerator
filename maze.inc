@@ -62,6 +62,8 @@ native CreateColorfulMaze(Float:origin_x, Float:origin_y, Float:origin_z, length
 #define MAX_MAZE_XSIZE							(500)
 #define MAX_MAZE_YSIZE							(500)
 #define MAX_OBJECTS_PER_MAZE					(MAX_MAZE_XSIZE * MAX_MAZE_YSIZE)
+
+//Starting point to start generating the maze
 #define START_X 								1
 #define START_Y 								1
 
